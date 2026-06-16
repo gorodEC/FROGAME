@@ -1,6 +1,6 @@
 import Player from "./player.js";
 import Platform from "./platform.js";
-import InputHandler from "./inputHandler.js";
+import InputHandler from "./inputhandler.js";
 import { handleCollisions } from "./collision.js";
 import Renderer from "./renderer.js";
 import Collectible from './Collectible.js';
