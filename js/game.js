@@ -1,10 +1,10 @@
-import Player from "./Player.js";
-import Platform from "./Platform.js";
-import InputHandler from "./InputHandler.js";
-import { handleCollisions } from "./Collision.js";
-import Renderer from "./Renderer.js";
+import Player from "./player.js";
+import Platform from "./platform.js";
+import InputHandler from "./inputHandler.js";
+import { handleCollisions } from "./collision.js";
+import Renderer from "./renderer.js";
 import Collectible from './Collectible.js';
-import { checkCollision } from "./Collision.js";
+import { checkCollision } from "./collision.js";
 
 export default class Game {
 
